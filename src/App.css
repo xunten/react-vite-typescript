@@ -1,0 +1,17 @@
+/* CSS external  */
+h1 {
+  color: blue;
+  text-align: center;
+}
+
+.heading {
+  color: yellow
+}
+
+.container {
+  background-color: #E2E9EE;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}

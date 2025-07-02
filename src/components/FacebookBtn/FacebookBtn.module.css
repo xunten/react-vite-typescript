@@ -1,0 +1,18 @@
+.button {
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 320px;
+  height: 60px;
+  border-radius: 20px;
+  font-size: 17px;
+}
+
+
+.label {
+  margin-right: 12px; 
+}

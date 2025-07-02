@@ -1,0 +1,25 @@
+.button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+    border-radius: 10px;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.button span{
+    display: flex;
+    column-gap:  10px;
+    align-items: center;
+}
+
+.btn_outline {
+    background-color: #fff;
+    color: black;
+    border: 1px solid black;
+}
+

@@ -1,0 +1,36 @@
+.searchContainer {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 20px;
+    padding: 12px 16px;
+    width: 100%;
+    max-width: 330px;
+    box-sizing: border-box;
+    margin: 10px auto;
+    gap: 10px;
+    height: 51px;
+}
+
+.leftIcon {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color: #1C262C;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    flex: 1;
+    font-size: 14px;
+    color: #000000;
+}
+
+.rightIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px;
+  border-radius: 999px;
+}
