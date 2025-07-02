@@ -1,0 +1,50 @@
+.card {
+  max-width: 300px;
+  width: 100%;
+  background: #fff;
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  position: relative;
+}
+
+.time {
+  color: red;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.teamInfo {
+    padding-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.country {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.score {
+  background: #f2f4f5;
+  padding: 4px 16px;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.moreIcon {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  color: #000000;
+}

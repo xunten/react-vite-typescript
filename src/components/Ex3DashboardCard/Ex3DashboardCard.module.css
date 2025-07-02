@@ -1,0 +1,72 @@
+.card {
+  max-width: 300px;
+  width: 100%;
+  background: #fff;
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.tags {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  position: relative;
+}
+
+.highlight {
+  background: #d5ffe1;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.feeds {
+  background: #f3dbff;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.moreIcon {
+  position: absolute;
+  right: 0;
+  color: #000000;
+}
+
+.sub {
+  color: #a3a3a3;
+  margin-top: 4px;
+}
+
+.progressWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.progressBar {
+  flex: 1;
+  height: 8px;
+  background: #eaf1f4;
+  border-radius: 10px;
+  position: relative;
+}
+
+.progressBar::before {
+  content: "";
+  display: block;
+  height: 100%;
+  width: 80%;
+  background: #60d394;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.percent {
+  font-weight: bold;
+}

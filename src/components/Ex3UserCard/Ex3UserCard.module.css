@@ -1,0 +1,27 @@
+.card {
+  max-width: 300px;
+  width: 100%;
+  background: #fff;
+  border-radius: 20px;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 999px;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+}
+
+.visa {
+  color: blue;
+  font-weight: bold;
+  margin-right: 4px;
+}

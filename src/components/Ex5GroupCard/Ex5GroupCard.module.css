@@ -1,0 +1,38 @@
+.card {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  border-radius: 100px;
+  margin: 16px auto;
+  gap: 12px;
+  width: 100%;
+  max-width: 300px;
+}
+
+.avatars {
+  display: flex;
+}
+
+.avatar {
+  width: 58px;
+  height: 58px;
+  border-radius: 100px;
+  object-fit: cover;
+  margin-left: -12px;
+}
+
+.avatar:first-child {
+  margin-left: 0;
+}
+
+.text {
+  display: flex;
+  font-size: 18px;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text p {
+  font-size: 13px;
+  margin-top: 2px;
+}
